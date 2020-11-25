@@ -8,6 +8,7 @@ To Insert:
 
 Add the respective URL.
 Send the following data in the request body,
+```Javascript
 {
 	"name":"potato salad",
 	"description":"boiled potatoes with herbs and vegetables",
@@ -17,6 +18,7 @@ Send the following data in the request body,
 	"isAvailabe": true,
 	"timeToServe": "10 mins"
 }
+```
 And post it.
 
 To Read:
@@ -24,7 +26,7 @@ To Read:
 Use Get and browse to specific URLs
 
 To get all Dishes,
-https://locahost:<portno>/api/menu
+https://localhost:<portno>/api/menu
 
 To get a specific dish by id,
-https://locahost:<portno>/api/menu/{id} 
+https://localhost:<portno>/api/menu/{id} 
